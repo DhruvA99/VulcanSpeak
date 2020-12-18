@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-image: url("images/galaxy-2995952_1920.jpg");
+  background-size: cover;
+}
+
+#text-area {
+  display: block;
+  background-color: rgba(197, 197, 197, 0.352);
+  width: 90%;
+  margin: 30px auto;
+  color: white;
+}
+#text-area::placeholder {
+  color: white;
+}
+
+#btn-translate {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  color: white;
+
+  background-color: rgb(126, 9, 93);
+}
+
+#text-output {
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(197, 197, 197, 0.352);
+  width: 90%;
+  margin: 30px auto;
+  height: 90px;
+}
+
+.navigation {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 1.89rem;
+}
+.navigation-text {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+}
+.main {
+  padding: 1.2rem;
+  margin: 60px auto;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.footer-heading {
+  font-size: large;
+  font-weight: bold;
+}
+.footer-text {
+  font-size: medium;
+}
